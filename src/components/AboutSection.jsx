@@ -1,3 +1,6 @@
+import perfume10 from "../assets/perfume10.png";
+import perfume11 from "../assets/perfume11.png";
+
 const AboutSection = () => {
   return (
     <section id="about" className="bg-black text-white py-24 px-6 lg:px-12">
@@ -9,7 +12,7 @@ const AboutSection = () => {
 
           <div className="w-[280px] md:w-[380px] rounded-[30px] overflow-hidden border border-yellow-500/30 shadow-2xl">
             <img
-              src="/src/assets/perfume10.png"
+              src={perfume10}
               alt="Perfume"
               className="w-full h-full object-cover"
             />
@@ -18,7 +21,7 @@ const AboutSection = () => {
           {/* Small floating image */}
           <div className="absolute -bottom-10 -right-10 w-[180px] rounded-[25px] overflow-hidden border border-yellow-500/40 shadow-xl">
             <img
-              src="/src/assets/perfume11.png"
+              src={perfume11}
               alt="Perfume detail"
               className="w-full h-full object-cover"
             />
@@ -69,7 +72,22 @@ const AboutSection = () => {
 
           </div>
 
-          <button className="mt-10 px-8 py-3 bg-gradient-to-r from-yellow-700 via-yellow-500 to-yellow-400 text-black font-bold rounded-full hover:scale-105 transition">
+          <button
+            className="
+              mt-10
+              px-8
+              py-3
+              bg-gradient-to-r
+              from-yellow-700
+              via-yellow-500
+              to-yellow-400
+              text-black
+              font-bold
+              rounded-full
+              hover:scale-105
+              transition
+            "
+          >
             Learn More
           </button>
 
